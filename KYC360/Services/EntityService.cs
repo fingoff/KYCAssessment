@@ -86,30 +86,6 @@ namespace KYC360.Services
                 )
             ).ToList();
 
-            // if (!string.IsNullOrWhiteSpace(search))
-            // {
-            //     search = search.ToLower();
-            //     entities = entities.Where(e =>
-            //         e.Names.Any(n => n.FirstName != null && n.FirstName.Contains(search, StringComparison.CurrentCultureIgnoreCase)) ||
-            //         e.Names.Any(n => n.MiddleName != null && n.MiddleName.Contains(search, StringComparison.CurrentCultureIgnoreCase)) ||
-            //         e.Names.Any(n => n.Surname != null && n.Surname.Contains(search, StringComparison.CurrentCultureIgnoreCase)) ||
-            //         e.Addresses.Any(a => a.AddressLine != null && a.AddressLine.Contains(search, StringComparison.CurrentCultureIgnoreCase)) ||
-            //         e.Addresses.Any(a => a.Country != null && a.Country.Contains(search, StringComparison.CurrentCultureIgnoreCase))
-            //     ).ToList();
-            // }
-
-            // if (!string.IsNullOrWhiteSpace(search))
-            // {
-            //     search = search.ToLower();
-            //     entities = entities.Where(e =>
-            //         e.Names.Any(n => n.FirstName != null && search.Contains(n.FirstName, StringComparison.CurrentCultureIgnoreCase)) ||
-            //         e.Names.Any(n => n.MiddleName != null && search.Contains(n.MiddleName, StringComparison.CurrentCultureIgnoreCase)) ||
-            //         e.Names.Any(n => n.Surname != null && search.Contains(n.Surname, StringComparison.CurrentCultureIgnoreCase)) ||
-            //         e.Addresses.Any(a => a.AddressLine != null && search.Contains(a.AddressLine, StringComparison.CurrentCultureIgnoreCase)) ||
-            //         e.Addresses.Any(a => a.Country != null && search.Contains(a.Country, StringComparison.CurrentCultureIgnoreCase))
-            //     ).ToList();
-            // }
-
             return entities;
         }
 

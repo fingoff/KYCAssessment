@@ -31,3 +31,4 @@
 /Users/annaesenfeld/Finlay/KYCAssessment/KYC360/obj/Debug/net8.0/KYC360.pdb
 /Users/annaesenfeld/Finlay/KYCAssessment/KYC360/obj/Debug/net8.0/KYC360.genruntimeconfig.cache
 /Users/annaesenfeld/Finlay/KYCAssessment/KYC360/obj/Debug/net8.0/ref/KYC360.dll
+/Users/annaesenfeld/Finlay/KYCAssessment/KYC360/obj/Debug/net8.0/KYC360.sourcelink.json
